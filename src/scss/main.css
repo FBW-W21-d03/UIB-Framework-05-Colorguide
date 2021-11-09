@@ -1,0 +1,143 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.yellow, .pink, .blue, .purple {
+  border: 1px solid lightgrey;
+  width: 300px;
+  height: 250px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.boxYellow {
+  width: 300px;
+  height: 180px;
+  background-color: yellow;
+}
+
+.boxPink {
+  width: 300px;
+  height: 180px;
+  background-color: #fa5e5b;
+}
+
+.boxBlue {
+  width: 300px;
+  height: 180px;
+  background-color: #1d508d;
+}
+
+.boxPurple {
+  width: 300px;
+  height: 180px;
+  background-color: #684e79;
+}
+
+figcaption {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 6rem;
+}
+
+.boxYellow-2, .boxPink-2, .boxBlue-2, .boxPurple-2 {
+  border: 1px solid lightgrey;
+  width: 300px;
+  height: 250px;
+}
+
+.boxReihe-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mediumYellow, .darkYellow, .ligtYellow {
+  width: 100px;
+  height: 250px;
+}
+
+.mediumYellow {
+  background-color: #ffc83f;
+}
+
+.darkYellow {
+  background-color: #ffb90c;
+}
+
+.ligtYellow {
+  background-color: #ffd772;
+}
+
+.mediumPink, .darkPink, .lightPink {
+  width: 100px;
+  height: 250px;
+}
+
+.mediumPink {
+  background-color: #fa5e5b;
+}
+
+.darkPink {
+  background-color: #f82d2a;
+}
+
+.lightPink {
+  background-color: #fc8f8c;
+}
+
+.mediumBlue, .darkBlue, .ligtBlue {
+  width: 100px;
+  height: 250px;
+}
+
+.mediumBlue {
+  background-color: #1d508d;
+}
+
+.darkBlue {
+  background-color: #143863;
+}
+
+.ligtBlue {
+  background-color: #2668b7;
+}
+
+.mediumPurple, .darkPurple, .ligtPurple {
+  width: 100px;
+  height: 250px;
+}
+
+.mediumPurple {
+  background-color: #684e79;
+}
+
+.darkPurple {
+  background-color: #4d3a5a;
+}
+
+.ligtPurple {
+  background-color: #836298;
+}
+/*# sourceMappingURL=main.css.map */

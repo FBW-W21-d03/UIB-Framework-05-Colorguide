@@ -1,3 +1,154 @@
 // This is where you can import other stylesheets or write your scss code
 // @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+$width:300px;
+$height:250px;
+$display:flex;
+
+
+
+.container{
+    display:$display;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.yellow , .pink , .blue , .purple{
+
+    border: 1px solid lightgrey;
+    width: $width;
+    height:$height;
+    border-radius : 0px 0px 8px 8px;
+}
+
+.boxYellow{
+    width: $width;
+    height: 180px;
+    background-color: yellow;
+}
+.boxPink{
+    width: $width;
+    height: 180px;
+    background-color:#fa5e5b ;
+}
+
+.boxBlue{
+    width: $width;
+    height: 180px;
+    background-color:#1d508d;
+}
+
+.boxPurple{
+    width: $width;
+    height: 180px;
+    background-color: #684e79;
+}
+
+figcaption{
+     padding-left:10px;
+     padding-top: 5px;
+     font-size: 1.3rem;
+     color: grey;
+     
+}
+
+
+// SECOND BOX...
+
+.container2{
+    display:$display;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 6rem;
+}
+
+
+.boxYellow-2 , .boxPink-2 , .boxBlue-2 , .boxPurple-2{
+
+    border: 1px solid lightgrey;
+    width:$width;
+    height: $height;
+}
+.boxReihe-2{
+
+    display: $display;
+}
+
+
+// FOR YELLOW BOX
+
+.mediumYellow, .darkYellow, .ligtYellow{
+
+    width: 100px;
+    height: $height;
+}
+
+.mediumYellow{
+    background-color: #ffc83f;
+}
+.darkYellow{
+    background-color: darken($color: #ffc83f, $amount: 10%);
+}
+.ligtYellow{
+    background-color:lighten($color: #ffc83f, $amount: 10%);
+}
+
+// FOR PINK BOX
+
+.mediumPink, .darkPink , .lightPink{
+    width: 100px;
+    height: $height;
+}
+
+.mediumPink{
+    background-color:#fa5e5b ;
+}
+.darkPink{
+    background-color:darken($color: #fa5e5b, $amount: 10%) ;
+}
+.lightPink{
+    background-color:lighten($color: #fa5e5b, $amount: 10%) ;
+}
+
+// FOR BLUE BOX
+
+.mediumBlue, .darkBlue , .ligtBlue{
+    width: 100px;
+    height: $height;
+}
+
+.mediumBlue{
+    background-color: #1d508d;
+}
+.darkBlue{
+    background-color:darken($color: #1d508d, $amount: 10%);
+}
+.ligtBlue{
+    background-color: lighten($color: #1d508d, $amount: 10%);
+}
+
+
+// FOR PURPLR BOX
+
+.mediumPurple , .darkPurple , .ligtPurple{
+    width: 100px;
+    height: $height;
+}
+
+.mediumPurple{
+    background-color:#684e79;
+
+}
+.darkPurple{
+    background-color:darken($color: #684e79, $amount: 10%);
+
+}
+.ligtPurple{
+    background-color:lighten($color: #684e79, $amount: 10%);
+
+}
+
