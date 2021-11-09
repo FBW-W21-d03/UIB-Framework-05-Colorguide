@@ -4,16 +4,33 @@
 $width:300px;
 $height:200px;
 $display:flex;
+$font:sans-serif;
 
 
-
+body{
+    font-family: $font;
+}
+h1{
+    color: grey;
+    text-align: center;
+    font-family:$font;
+    font-size: 3rem;
+    font-weight: lighter;
+}
 .container{
     display:$display;
     gap: 1.5rem;
     justify-content: center;
     padding-right: 20px;
     padding-left: 20px;
-}
+    @media (max-width: 600px) {
+        flex-direction: column;
+        flex-wrap: wrap;
+       
+        }
+      }
+
+
 
 .yellow , .pink , .blue , .purple{
 
@@ -63,8 +80,13 @@ figcaption{
     padding-right: 20px;
     padding-left: 20px;
     margin-top: 6rem;
-}
-
+    @media (max-width: 600px) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        }
+      }
+    
 
 .boxYellow-2 , .boxPink-2 , .boxBlue-2 , .boxPurple-2{
 
@@ -90,10 +112,10 @@ figcaption{
     background-color: #ffc83f;
 }
 .darkYellow{
-    background-color: rgb(228, 188, 11);
+    background-color: darken( #ffc83f , 10%);
 }
 .ligtYellow{
-    background-color: rgb(236, 236, 132);
+    background-color:lighten(#ffc83f , 10%) ;
 }
 
 // FÜR PINK BOX
@@ -107,10 +129,10 @@ figcaption{
     background-color:#fa5e5b ;
 }
 .darkPink{
-    background-color:#dd211e ;
+    background-color:  darken( #fa5e5b , 10%);
 }
 .lightPink{
-    background-color:#e2908f ;
+    background-color:lighten(#fa5e5b , 10%);
 }
 
 // FÜR BLUE BOX
@@ -124,10 +146,10 @@ figcaption{
     background-color: #1d508d;
 }
 .darkBlue{
-    background-color: #194070;
+    background-color: darken(#1d508d , 10%);
 }
 .ligtBlue{
-    background-color: #2983f0;
+    background-color: lighten(#1d508d ,10%);
 }
 
 
@@ -143,11 +165,11 @@ figcaption{
 
 }
 .darkPurple{
-    background-color:#4f226d;
+    background-color:darken(#684e79 , 10%);
 
 }
 .ligtPurple{
-    background-color:#774697;
+    background-color:lighten(#684e79 ,10%);
 
 }
 

@@ -1,3 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,6 +20,17 @@
           justify-content: center;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .yellow, .pink, .blue, .purple {
@@ -60,6 +83,18 @@ figcaption {
   margin-top: 6rem;
 }
 
+@media (max-width: 600px) {
+  .container2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 300px;
+  }
+}
+
 .boxYellow-2, .boxPink-2, .boxBlue-2, .boxPurple-2 {
   border: 1px solid lightgrey;
   width: 300px;
@@ -82,11 +117,11 @@ figcaption {
 }
 
 .darkYellow {
-  background-color: #e4bc0b;
+  background-color: #ffb90c;
 }
 
 .ligtYellow {
-  background-color: #ecec84;
+  background-color: #ffd772;
 }
 
 .mediumPink, .darkPink, .lightPink {
@@ -99,11 +134,11 @@ figcaption {
 }
 
 .darkPink {
-  background-color: #dd211e;
+  background-color: #f82d2a;
 }
 
 .lightPink {
-  background-color: #e2908f;
+  background-color: #fc8f8c;
 }
 
 .mediumBlue, .darkBlue, .ligtBlue {
@@ -116,11 +151,11 @@ figcaption {
 }
 
 .darkBlue {
-  background-color: #194070;
+  background-color: #143863;
 }
 
 .ligtBlue {
-  background-color: #2983f0;
+  background-color: #2668b7;
 }
 
 .mediumPurple, .darkPurple, .ligtPurple {
@@ -133,10 +168,10 @@ figcaption {
 }
 
 .darkPurple {
-  background-color: #4f226d;
+  background-color: #4d3a5a;
 }
 
 .ligtPurple {
-  background-color: #774697;
+  background-color: #836298;
 }
 /*# sourceMappingURL=main.css.map */
